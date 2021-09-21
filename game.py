@@ -8,7 +8,6 @@ print("Rock, Paper, Scissors, Shoot!")
 
 #x = input("Choose 'rock' or 'paper' or scissor'")
 user_choice = input("Choose 'rock' or 'paper' or 'scissors': ")
-print(user_choice)
 
 # Computer Choice (At Random)
 
