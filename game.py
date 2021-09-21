@@ -20,7 +20,5 @@ print(user_choice)
 print("Computer Chose This")
 print(computer_choice)
 
-
-breakpoint()
-
-print("Thanks! Please play again")
+if ((computer_choice == rock) and (user_choice == scissor))
+print("Computer Wins!")
