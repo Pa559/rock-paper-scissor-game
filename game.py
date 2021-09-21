@@ -21,19 +21,19 @@ print(computer_choice)
 
 if (computer_choice == "rock") and (user_choice == "scissors"):
     print("Computer Wins!")
-if (computer_choice == "paper") and (user_choice == "scissors"):
+elif (computer_choice == "paper") and (user_choice == "scissors"):
     print("You Win!")
-if (computer_choice == "scissors") and (user_choice == "scissors"):
+elif (computer_choice == "scissors") and (user_choice == "scissors"):
     print("Tie!")
-if (computer_choice == "rock") and (user_choice == "rock"):
+elif (computer_choice == "rock") and (user_choice == "rock"):
     print("Tie!")
-if (computer_choice == "paper") and (user_choice == "rock"):
+elif (computer_choice == "paper") and (user_choice == "rock"):
     print("Computer Wins!")
-if (computer_choice == "scissors") and (user_choice == "rock"):
+elif (computer_choice == "scissors") and (user_choice == "rock"):
     print("You Win!")
-if (computer_choice == "rock") and (user_choice == "paper"):
+elif (computer_choice == "rock") and (user_choice == "paper"):
     print("You Win!")
-if (computer_choice == "paper") and (user_choice == "paper"):
+elif (computer_choice == "paper") and (user_choice == "paper"):
     print("Tie!")
-if (computer_choice == "scissors") and (user_choice == "paper"):
+elif (computer_choice == "scissors") and (user_choice == "paper"):
     print("Computer Wins!")
