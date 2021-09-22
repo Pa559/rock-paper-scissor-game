@@ -13,6 +13,10 @@ user_choice = input("Choose 'rock' or 'paper' or 'scissors': ")
 
 options = ["rock", "paper", "scissors"]
 
+if user_choice not in options:
+    print("NOT VALID OPTION")
+    exit()
+
 computer_choice = random.choice(options)
 print("User Chose This")
 print(user_choice)
@@ -38,4 +42,4 @@ elif (computer_choice == "paper") and (user_choice == "paper"):
 elif (computer_choice == "scissors") and (user_choice == "paper"):
     print("Computer Wins!")
 
-print("test")
+print("Thanks for Playing!")
