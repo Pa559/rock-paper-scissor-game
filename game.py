@@ -2,7 +2,14 @@
 
 import random
 
+import os
+
+from dotenv import load_dotenv
+load_dotenv()
+PLAYER_NAME = os.getenv("PLAYER_NAME", default = "Player One")
+
 print("Rock, Paper, Scissors, Shoot!")
+print(f"Welcome '{PLAYER_NAME}'")
 
 #Prompt User for input
 
